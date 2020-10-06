@@ -8,7 +8,7 @@
                 <div class="card-body">
                     <form class="form-inline" (submit)="searchUser()">
                         <div class="form-group">
-                            <input [(ngMode1)]="githubUserQuery" name="user" type="search" class="form-control1" placeholder="Github user">
+                            <input [(ngModel)]="githubUserQuery" name="user" type="search" class="form-control1" placeholder="Github user">
                         </div>
                         <div>
                             <input type="submit" value="search" class="btn btn-secondary btn-sm">
@@ -20,8 +20,12 @@
     </div>
     <div class="row">
         <div class="col">
-            <pre>{{githubProfile | json}}</pre>
+            <app-github-profile [githubProfile]="githubProfile"></app-github-profile>
         </div>
-
+    </div>
+    <div class="row">
+        <div class="col">
+            <app-github-repo></app-github-repo>
+        </div>
     </div>
 </div>
