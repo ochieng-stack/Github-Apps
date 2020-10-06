@@ -1,6 +1,27 @@
 # GithubApps
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
+# Authors Description
+
+This App was created by Brian in order to such github users by the name and it will display there repositories.
+
+# Setup Instruction
+
+Search button to feach users
+
+# Technologies Used
+
+* HTML
+* CSS 
+* TYPESCRIPT
+* JAVASCRIPT
+
+# Contact Information
+
+Facebook
+twitter
+instagram
+linkedin
 
 ## Development server
 
@@ -25,3 +46,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# lincence and Copyright Information
+this app is able to function and here by recommended by brian to b e used by anyone
