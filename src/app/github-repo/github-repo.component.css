@@ -1,0 +1,9 @@
+.card-header{
+    background-color: skyblue;
+    font-size:30px;
+    color: white;
+}
+
+.list-group-item{
+    margin: 1rem;
+}
